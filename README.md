@@ -3,6 +3,7 @@
 ## Technologies and tools
 
 - ⚙️ React Js 
+- ⚙️ Redux Tool Kit
 
 
 ### Live
