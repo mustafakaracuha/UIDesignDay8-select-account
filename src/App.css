@@ -1,0 +1,318 @@
+@font-face {
+  font-family: muli;
+  src: url(./assets/fonts/Muli-SemiBold.woff);
+}
+@font-face {
+  font-family: muliLight;
+  src: url(./assets/fonts/Muli-Light.woff);
+}
+
+@font-face {
+  font-family: muliBold;
+  src: url(./assets/fonts/Muli-Bold.woff);
+}
+
+@font-face {
+  font-family: merri;
+  src: url(./assets/fonts/Merriweather-Bold.ttf);
+}
+@font-face {
+  font-family: day;
+  src: url(./assets/fonts/coolvetica\ rg.otf);
+}
+
+@font-face {
+  font-family: mk;
+  src: url(./assets/fonts/Bilal-d99MX.otf);
+}
+
+.App {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: normal;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.box {
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.box .title {
+  font-size: 25px;
+  font-family: muli;
+  margin-top: 5%;
+  color: rgb(0, 0, 0);
+  margin-bottom: 1%;
+}
+
+.box p {
+  font-family: muli;
+  font-size: 15px;
+  width: 400px;
+  align-items: center;
+  justify-content: center;
+  display: inline-flex;
+}
+
+.main {
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  display: flex;
+  padding-top: 90px;
+}
+
+.main .user {
+  width: 240px;
+  height: 240px;
+  border-radius: 15px;
+  margin-left: 30px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background: #eff3fb;
+}
+
+.main .userMain {
+  width: 190px;
+  height: 190px;
+  background: white;
+  border-radius: 15px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  overflow: hidden;
+  box-shadow: #bfd0f6 0px 4px 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.main .userMain:hover {
+  transform: scale(1.05);
+}
+
+.main .userMain button {
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 0%;
+}
+
+.main .userMain button:focus {
+  background: #c0d7e5;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  margin-top: 10%;
+  overflow: hidden;
+  margin-left: 30%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.avatarDialog {
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  margin-top: 5%;
+  margin-bottom: 8%;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  box-shadow: #bfd0f6 0px 4px 15px;
+}
+
+.main .addAccount {
+  width: 240px;
+  height: 240px;
+  border-radius: 15px;
+  margin-left: 0px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.main .addAccount div {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  outline: 4px solid #c3d3ec62;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.main .addAccount div:hover {
+  transform: scale(1.05);
+}
+
+.main .userMain input {
+  text-align: center;
+  font-family: muli;
+  font-size: 16px;
+  color: #52698f;
+  border: none;
+  border-bottom: 1px solid #52698f4d;
+  padding-bottom: 5px;
+  background: none;
+  width: 100%;
+  margin-top: 10%;
+}
+
+.main .userMain p {
+  width: 100%;
+  text-align: center;
+  font-family: muli;
+  font-size: 16px;
+  color: #52698f;
+  width: 100%;
+  margin-top: 10%;
+}
+
+.MuiMenu-paper {
+  border-radius: 10px !important;
+  box-shadow: #bfd0f678 0px 4px 15px !important;
+  padding: 10px !important;
+}
+
+.MuiMenuItem-root {
+  border-radius: 5px !important;
+}
+
+.MuiMenuItem-root:hover {
+  background: #f3f3fb !important;
+}
+
+.dialogCont {
+  width: auto;
+  height: auto;
+  align-items: center;
+}
+
+.MuiDialog-paper {
+  width: 30%;
+  outline: none;
+  border: none;
+  border-radius: 10px !important;
+  box-shadow: #bfd0f6a7 0px 4px 15px !important;
+  align-items: center;
+}
+
+.MuiDialogTitle-root {
+  text-align: center;
+}
+
+.MuiBackdrop-root {
+  background: none !important;
+}
+
+.Toastify__toast {
+border-radius: 15px !important;
+}
+
+.addAccountName {
+  border: none;
+  background: #eff3fb;
+  width: 250px;
+  height: 40px;
+  border-radius: 10px;
+  text-align: center;
+  outline: none !important;
+  color: #232f448f;
+  font-family: muli;
+  font-size: 19px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.addAccountName::placeholder {
+  color: #232f4429;
+}
+
+.addBtn {
+  width: 120px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  font-family: muli;
+  color: #1219269d;
+  background: none;
+  border: 1px solid #b5bfd3;
+  margin-bottom: 5%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.addBtn:hover {
+  border: 1px solid #2e4e8f;
+}
+
+.designBy {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: #52698f9c;
+}
+
+.designBy p {
+  width: 100% !important;
+  font-family: mk;
+  font-size: 30px !important;
+}
+
+.designBy h1 {
+  font-family: muli;
+  font-size: 20px !important;
+}
+
+.day {
+  font-family: day !important;
+}
+
+@media screen and (max-width: 992px) {
+  .box .title {
+    font-size: 21px;
+    margin-top: 0%;
+  }
+  .designBy p {
+    width: 100% !important;
+    font-family: mk;
+    font-size: 22px !important;
+  }
+  .designBy h1 {
+    font-family: muli;
+    font-size: 16px !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+}
