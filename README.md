@@ -8,7 +8,7 @@
 
 ### Live
 
-🔗 https://ui-design-day6-selectaccount.vercel.app/
+🔗 https://ui-design-day8-selectaccount.vercel.app/
 
 ### Installation
 
